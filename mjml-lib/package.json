@@ -1,0 +1,14 @@
+{
+  "name": "mjml-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mjml-browser": "4.14.1"
+  },
+  "scripts": {
+    "build": "esbuild --bundle --target=chrome70 --format=iife --global-name=mjml index.js --outdir=dist"
+  },
+  "devDependencies": {
+    "esbuild": "latest"
+  }
+}

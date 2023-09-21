@@ -1,0 +1,4 @@
+global-include *.js
+include requirements.txt
+global-exclude venv/**
+global-exclude node_modules/**
